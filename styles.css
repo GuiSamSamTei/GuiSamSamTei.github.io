@@ -1,15 +1,83 @@
 body{
+    background-color: rgb(48, 44, 44);
     font-family: Arial, Helvetica, sans-serif;
-}
-
-div{
-    background-color: #66f;
     color: #000;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    box-shadow: 0 0 20px #000;
     text-align: center;
 }
+
+div:hover, div img:hover{
+    filter: brightness(125%);
+}
+
+
+.prin{
+    background-color: #66f;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+    margin: 10px;
+    font-size: 30px; 
+    width: 100%;
+}
+
+.div1{
+    background-color: #F80;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+    width: 25%;
+    float: left;
+    margin: 5px;
+}
+
+.photo{
+    border: 1px solid #000;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #000;
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+.indiv1{
+    background-color: #FA0;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+    margin: 10px;
+}
+
+.gauche{
+    text-align: left;
+}
+
+.div2{
+    background-color: #3f9;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+    width: 71%;
+    float: right;
+    margin: 5px;
+    padding: 10px;
+}
+.indiv2{
+    background-color: #9F9;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+    margin: 5px;
+}
+
+li ul{
+    list-style-type: circle; 
+    padding-bottom: 0;
+}
+
+li ul li ul{
+    list-style-type: square;
+}
+
