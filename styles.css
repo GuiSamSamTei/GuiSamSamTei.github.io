@@ -9,7 +9,7 @@ body{
 }
 
 div:hover, div img:hover{
-    filter: brightness(125%);
+    filter: brightness(110%);
 }
 
 .gauche{
