@@ -12,6 +12,9 @@ div:hover, div img:hover{
     filter: brightness(125%);
 }
 
+.gauche{
+    text-align: left;
+}
 
 .prin{
     background-color: #66f;
@@ -33,25 +36,12 @@ div:hover, div img:hover{
     margin: 5px;
 }
 
-.photo{
-    border: 1px solid #000;
-    border-radius: 50px;
-    box-shadow: 0 0 20px #000;
-    margin: 10px;
-    width: 90%;
-    height: 90%;
-}
-
 .indiv1{
     background-color: #FA0;
     border: 1px solid #000;
     border-radius: 20px;
     box-shadow: 0 0 20px #000;
     margin: 10px;
-}
-
-.gauche{
-    text-align: left;
 }
 
 .div2{
@@ -64,6 +54,7 @@ div:hover, div img:hover{
     margin: 5px;
     padding: 10px;
 }
+
 .indiv2{
     background-color: #9F9;
     border: 1px solid #000;
@@ -74,10 +65,31 @@ div:hover, div img:hover{
 
 li ul{
     list-style-type: circle; 
-    padding-bottom: 0;
 }
 
 li ul li ul{
     list-style-type: square;
 }
 
+.ligne1{
+    width: 30%; 
+    display:inline-block; 
+    float: left;
+}
+.ligne2{
+    margin-bottom:100px; 
+    display:inline-block;
+}
+
+.special{
+    list-style-type:none;
+}
+
+.photo{
+    border: 1px solid #000;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #000;
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+}
